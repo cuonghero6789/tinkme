@@ -2,16 +2,23 @@
   "expo": {
     "name": "tinkme",
     "slug": "tinkme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gbv.tinkedu",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "entitlements": {
+        "aps-environment": "production"
+      }
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -32,10 +39,39 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      ["@react-native-firebase/app"],
+      ["@react-native-google-signin/google-signin"],
+      ["react-native-fbsdk-next",
+      {
+        "appID": "880290093617082",
+        "clientToken": "4995742d180f1debd1a92c6284cb7d04",
+        "displayName": "Tinkme",
+        "scheme": "fb880290093617082",
+        "advertiserIDCollectionEnabled": false,
+        "autoLogAppEventsEnabled": false,
+        "isAutoInitEnabled": true,
+        "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+      }]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "780f72bf-bb75-4a5b-8eee-34eb9858bb95"
+      }
     }
   }
 }

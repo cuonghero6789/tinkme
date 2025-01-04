@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "260239644005",
+    "project_id": "tink-edu",
+    "storage_bucket": "tink-edu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260239644005:android:b6c399470ecaa0e269bd8c",
+        "android_client_info": {
+          "package_name": "com.tinkedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260239644005-73jqj0p8nnks1u0ekp7a6il1vgj9k454.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tinkedu",
+            "certificate_hash": "508c1cfe88b3a4d49d2b3887e275fa3ee3ec8a9b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJzK8bV18Qz3Mx7BsjsbZ_5PStOStzfM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260239644005-1u9l3l9jqaq9ceam7jvrbrt35f7n6v1l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "260239644005-n205iep1j8cpn8ibcnuu2f1vl2kfjatv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gbv.tinkedu",
+                "app_store_id": "6464244614"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
