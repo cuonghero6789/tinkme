@@ -42,7 +42,6 @@
         "backgroundColor": "#ffffff"
       },
       "permissions": [
-        "android.permission.INTERNET",
         "android.permission.INTERNET"
       ]
     },
@@ -106,6 +105,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/780f72bf-bb75-4a5b-8eee-34eb9858bb95"
-    }
+    },
+    "owner": "phancuong6789"
   }
 }
