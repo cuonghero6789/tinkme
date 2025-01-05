@@ -9,6 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "buidNumber": "212",
       "usesAppleSignIn": true,
       "supportsTablet": true,
       "bundleIdentifier": "com.gbv.tinkedu",
