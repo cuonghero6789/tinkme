@@ -5,11 +5,11 @@
     "version": "2.1.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "tinkme",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "buidNumber": "212",
+      "buildNumber": "212",
       "usesAppleSignIn": true,
       "supportsTablet": true,
       "bundleIdentifier": "com.gbv.tinkedu",
